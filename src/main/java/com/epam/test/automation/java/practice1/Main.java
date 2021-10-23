@@ -2,7 +2,7 @@ package com.epam.test.automation.java.practice1;
 
 public class Main {
 
-    private Main() {
+    private Main(){
 
     }
     /**
