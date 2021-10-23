@@ -50,7 +50,7 @@ public class Main {
      */
     public static int task3(int value) {
         if (value <= 0) throw new IllegalArgumentException();
-        if (value == 0 || value == 1) return 0;
+        if (value == 1) return 0;
         if (value == 2) return 1;
         int result = 0;
         int fib = 1;
