@@ -1,6 +1,11 @@
-package practice2;
+package com.epam.test.automation.java.practice2;
 
 public class Main {
+
+    private Main() {
+
+    }
+
     public static void main(String[] args) {
         int n = 0;
         System.out.println(task3(n));

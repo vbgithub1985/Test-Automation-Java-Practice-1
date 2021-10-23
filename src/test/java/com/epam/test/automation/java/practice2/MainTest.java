@@ -1,9 +1,9 @@
-package practice2;
+package com.epam.test.automation.java.practice2;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-import static practice2.Main.*;
+import static com.epam.test.automation.java.practice2.Main.*;
 
 
 public class MainTest {
