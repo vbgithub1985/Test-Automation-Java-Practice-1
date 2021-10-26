@@ -6,16 +6,7 @@ public class Main {
 
     }
 
-    public static void main(String[] args) {
-        int n = 0;
-        System.out.println(task3(n));
-        /*System.out.println(task1(n));
-        n = 14;
-        System.out.println(task2(n));
-        n = 9635;
-        System.out.println(task2(n));*/
 
-    }
 
     public static int task1(int value) {
         if (value <= 0) throw new IllegalArgumentException();
