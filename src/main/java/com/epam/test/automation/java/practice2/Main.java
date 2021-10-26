@@ -1,6 +1,11 @@
 package com.epam.test.automation.java.practice2;
 
 public class Main {
+
+    private Main(){
+
+    }
+
     public static void main(String[] args) {
         int n = 0;
         System.out.println(task3(n));
@@ -50,7 +55,7 @@ public class Main {
      */
     public static int task3(int value) {
         if (value <= 0) throw new IllegalArgumentException();
-        if (value == 0 || value == 1) return 0;
+        if (value == 1) return 0;
         if (value == 2) return 1;
         int result = 0;
         int fib = 1;
