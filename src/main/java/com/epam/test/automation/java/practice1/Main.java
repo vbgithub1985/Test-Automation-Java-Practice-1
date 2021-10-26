@@ -5,11 +5,6 @@ public class Main {
     private Main(){
 
     }
-    /**
-     * <summary>
-     * Implement code according to description of task 1.
-     * </summary>
-     */
     public static int task1(int n) {
         int result = 0;
         if (n<0) result = -n;
@@ -17,11 +12,6 @@ public class Main {
         return result;
     }
 
-    /**
-     * <summary>
-     * Implement code according to description of task 2.
-     * </summary>
-     */
     public static int task2(int n) {
         int result = 0;
         if (n >=100 && n <= 999){

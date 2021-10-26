@@ -7,7 +7,6 @@ public class Main {
     }
 
 
-
     public static int task1(int value) {
         if (value <= 0) throw new IllegalArgumentException();
         int result = 0;
@@ -19,12 +18,7 @@ public class Main {
         return result;
     }
 
-    /**
-     * <summary>
-     * Implement code according to description of task 2.
-     * </summary>
-     */
-    public static int task2(int value) {
+   public static int task2(int value) {
         if (value < 0) throw new IllegalArgumentException();
         int result = 0;
         while (value != 0){
@@ -35,15 +29,6 @@ public class Main {
         return result;
     }
 
-    /**
-     For a positive integer n, calculate the result value, which is equal to the sum of the first n Fibonacci numbers.
-     Note. Fibonacci numbers are a series of numbers in which each next number is equal to the sum of the two
-     preceding ones: 0, 1, 1, 2, 3, 5, 8, 13... (the value of the fist element in Fibonacci numbers is "0",
-     the values of the second and the third elements are equal to "1", for other elements use the formula F(n)=F(n-1)+F(n-2))
-     Example,
-     n = 8 result = 33
-     n = 11 result = 143
-     */
     public static int task3(int value) {
         if (value <= 0) throw new IllegalArgumentException();
         if (value == 1) return 0;
