@@ -8,45 +8,6 @@ public class Main {
 
     }
 
-    public static void main(String[] args) {
-        /*System.out.println("First array");
-        int[] arr = {10, 5, 3, 4};
-        System.out.println(Arrays.toString(arr));
-        System.out.println(Arrays.toString(task1(arr)));
-        System.out.println("Second array");
-        int[] arr2 = {100, 2, 3, 4, 5};
-        System.out.println(Arrays.toString(arr2));
-        System.out.println(Arrays.toString(task1(arr2)));
-        System.out.println("Third array");
-        int[] arr3 = {100, 2, 3, 45, 33, 8, 4, 54};
-        System.out.println(Arrays.toString(arr3));
-        System.out.println(Arrays.toString(task1(arr3)));*/
-
-        /*System.out.println("First array");
-        int[] arr = {4, 100, 3, 4};
-        System.out.print(Arrays.toString(arr) + ". Result = ");
-        System.out.println(task2(arr));
-        System.out.println("Second array");
-        int[] arr2 = {5, 50, 50, 4, 5};
-        System.out.print(Arrays.toString(arr2) + ". Result = ");
-        System.out.println(task2(arr2));
-        System.out.println("Third array");
-        int[] arr3 = {5, 350, 350, 4, 350};
-        System.out.print(Arrays.toString(arr3) + ". Result = ");
-        System.out.println(task2(arr3));
-        System.out.println("Forth array");
-        int[] arr4 = {10, 10, 10, 10, 10, 1000, 10, 25, 30, 1000, 6, 1000, 56, 1000};
-        System.out.print(Arrays.toString(arr4) + ". Result = ");
-        System.out.println(task2(arr4));*/
-
-        //int[][] matrix = {{2, 4, 3, 3},  {5, 7, 8, 5},  {2, 4, 3, 3},  {5, 7, 8, 5}};
-        int[][] matrix = {{6, 3, 4, 1, 20},  {7, 5, 1, 2, 3},  {4, 6, 10, 7, 77},  {4, 3, 11, 8, 55},  {5, 6, 7, 8, 66}};
-        System.out.println("Source array");
-        printMatrix(matrix);
-        System.out.println("Result array");
-        printMatrix(task3(matrix));
-    }
-
     /**
      * <summary>
      * Implement code according to description of task 1.
