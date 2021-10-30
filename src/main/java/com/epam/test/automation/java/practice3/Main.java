@@ -8,26 +8,36 @@ public class Main {
 
     }
 
+    public static void main(String[] args) {
+        int[] arr = {10, 4, 3, 2, 6};
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(task1(arr)));
+        System.out.println(Arrays.toString(arr));
+    }
     /**
      * <summary>
      * Implement code according to description of task 1.
      * </summary>
      */
     public static int[] task1(int[] array) {
+        int[] resArr = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            resArr[i] = array[i];
+        }
         int iFirst = 0;
-        int iLast = array.length-1;
+        int iLast = resArr.length-1;
         while (iFirst < iLast){
-            int first = array[iFirst];
-            int last = array[iLast];
+            int first = resArr[iFirst];
+            int last = resArr[iLast];
             if (first % 2 ==0 && last % 2 ==0){
-                int temp = array[iFirst];
-                array[iFirst] = array[iLast];
-                array[iLast] = temp;
+                int temp = resArr[iFirst];
+                resArr[iFirst] = resArr[iLast];
+                resArr[iLast] = temp;
             }
             iFirst++;
             iLast--;
         }
-        return array;
+        return resArr;
     }
 
     /**
@@ -36,6 +46,7 @@ public class Main {
      * </summary>
      */
     public static int task2(int[] array) {
+
         int iFirstMax = 0;
         int iLastMax = 0;
         int max = 0;
