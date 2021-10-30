@@ -2,6 +2,9 @@ package com.epam.test.automation.java.practice4;
 
 public class TaskHelper {
 
+    private TaskHelper(){
+
+    }
     public static int[] getSortedArray(int[] arrSource, SortOrder order){
         int[] arrResult;
         if (order == SortOrder.ASC){
@@ -25,7 +28,15 @@ public class TaskHelper {
         return result;
     }
 
-    private static int[] getNewOneArrayFromSource(int[] arrSource){
+    public static int[] transform(int[] arrSource){
+        int[] arrResult = getNewOneArrayFromSource(arrSource);
+        for (int i = 0; i < arrResult.length; i++) {
+            arrResult[i] = arrResult[i]+i;
+        }
+        return arrResult;
+    }
+
+    public static int[] getNewOneArrayFromSource(int[] arrSource){
         int[] arrResult = new int[arrSource.length];
         for (int i = 0; i < arrSource.length; i++) {
             arrResult[i] = arrSource[i];

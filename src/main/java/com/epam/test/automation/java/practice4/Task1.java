@@ -4,9 +4,17 @@ import java.util.Arrays;
 
 public class Task1 {
 
-    private static TaskHelper taskHelper;
-    public Task1(){
-        taskHelper = new TaskHelper();
+    private Task1(){
+
+    }
+
+
+
+    public static void main(String[] args) {
+        int[] arr1 = {8,7,6,5,4,3,2,1};;
+        int[] arr2 = {8,7,6,5,4,3,2,1};
+        System.out.println(isSorted(arr1, SortOrder.ASC));
+        System.out.println(isSorted(arr1, SortOrder.DESC));
     }
 
     /**
@@ -17,10 +25,12 @@ public class Task1 {
      *  IllegalArgumentException
      */
     public static boolean isSorted(int[] array, SortOrder order) {
+        if (array == null) throw new IllegalArgumentException();
         if (array.length==0) throw new IllegalArgumentException();
+
         boolean isSorted = false;
-        int[] arrSorted = taskHelper.getSortedArray(array, order);
-        isSorted = taskHelper.compareTwoOneArrays(array, arrSorted);
+        int[] arrSorted = TaskHelper.getSortedArray(array, order);
+        isSorted = TaskHelper.compareTwoOneArrays(array, arrSorted);
         return isSorted;
     }
 }
