@@ -12,9 +12,10 @@ public class Task1 {
 
     public static void main(String[] args) {
         int[] arr1 = {3,8,7,6,5,4,3,2,1};;
-        int[] arr2 = {8,7,6,5,4,3,2,1};
-        //System.out.println(isSorted2(arr1, SortOrder.ASC));
-       //System.out.println(isSorted2(arr2, SortOrder.DESC));
+        int[] arr2 = {8,7,6,5,4,3,2,1,10};
+        int[] arr3 = {9,1,2,3,4,5,6,7,8};
+        System.out.println(isSorted2(arr2, SortOrder.ASC));
+        System.out.println(isSorted2(arr2, SortOrder.DESC));
         System.out.println(isSorted2(arr1, SortOrder.DESC));
     }
 
@@ -33,17 +34,24 @@ public class Task1 {
         if (order == SortOrder.ASC){
             for (int i = 0; i < array.length-1; i++) {
                 if (array[i] < array[i+1]) isSorted = true;
-                else isSorted = false;
+                else {
+                    isSorted = false;
+                    break;
+                }
             }
         }
         else{
             for (int i = 0; i < array.length-1; i++) {
                 if (array[i] > array[i+1]) isSorted = true;
-                else isSorted = false;
+                else {
+                    isSorted = false;
+                    break;
+                }
             }
         }
         return isSorted;
     }
+    
     public static boolean isSorted(int[] array, SortOrder order) {
         if (array == null) throw new IllegalArgumentException();
         if (array.length==0) throw new IllegalArgumentException();
