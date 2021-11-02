@@ -33,7 +33,7 @@ public class Task1 {
         boolean isSorted = false;
         if (order == SortOrder.ASC){
             for (int i = 0; i < array.length-1; i++) {
-                if (array[i] < array[i+1]) isSorted = true;
+                if (array[i] <= array[i+1]) isSorted = true;
                 else {
                     isSorted = false;
                     break;
@@ -42,7 +42,7 @@ public class Task1 {
         }
         else{
             for (int i = 0; i < array.length-1; i++) {
-                if (array[i] > array[i+1]) isSorted = true;
+                if (array[i] >= array[i+1]) isSorted = true;
                 else {
                     isSorted = false;
                     break;
@@ -51,7 +51,7 @@ public class Task1 {
         }
         return isSorted;
     }
-    
+
     public static boolean isSorted(int[] array, SortOrder order) {
         if (array == null) throw new IllegalArgumentException();
         if (array.length==0) throw new IllegalArgumentException();

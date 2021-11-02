@@ -11,7 +11,7 @@ public class Task2 {
 
     public static void main(String[] args) {
         int[] arr1 = {15, 10, 3};
-        int[] arr2 =  {15, 10, 3};
+        int[] arr2 =  {8,8,7,7,4,4,2,2};
         System.out.println(Arrays.toString(transform(arr1,SortOrder.ASC)));
         System.out.println(Arrays.toString(transform(arr2,SortOrder.ASC)));
         System.out.println(Arrays.toString(transform(arr2,SortOrder.DESC)));
