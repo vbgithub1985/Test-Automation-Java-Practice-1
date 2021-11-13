@@ -1,0 +1,14 @@
+
+U
+java:S1854"8Remove this useless assignment to local variable "arr3".(µªå8Ïä¨’Î/
+2
+java:S1116"Remove this empty statement.(Éò»Á
+F
+java:S1481")Remove this unused "arr3" local variable.(µªå8Ñä¨’Î/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¬²»°8Àû’Î/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ï“§Ó8Ÿæ’Î/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Âş’ùÿÿÿÿ8§æ’Î/
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(£­êÃùÿÿÿÿ
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8÷âŸ’Î/

@@ -13,3 +13,23 @@ s
 Csrc/test/java/com/epam/test/automation/java/practice1/MainTest.java,5\9\5928bf7733f31831f7d61848bb41330402c54eae
 o
 ?src/main/java/com/epam/test/automation/java/practice2/Main.java,3\3\338035d3c6f6dd38aa9afe77aaf1f52fec6a7497
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+p
+@src/main/java/com/epam/test/automation/java/practice4/Task3.java,c\6\c6f5a151184eb53f2b203a691ba9e9e7645c1803
+p
+@src/main/java/com/epam/test/automation/java/practice4/Task4.java,4\2\42a03e0c1eb9def8b5a92e1dd1b85491fc8df1fb
+o
+?src/main/java/com/epam/test/automation/java/practice4/Main.java,6\4\648adbe043797c025c9e3cfb30db792efbf14777
+u
+Esrc/main/java/com/epam/test/automation/java/practice4/TaskHelper.java,2\7\27d92e0475b7441b6140e56eddb6bff87da9dcd0
+p
+@src/main/java/com/epam/test/automation/java/practice4/Task1.java,7\4\74838aee25c456b93eb97dd59f3940e1579e4c21
+z
+Jsrc/main/java/com/epam/test/automation/java/practice5/ArrayRectangles.java,6\c\6c27300abb969b5a24441a6a86e91088c02ae8b1
+o
+?src/main/java/com/epam/test/automation/java/practice5/Main.java,4\9\4982a993a433477fc87764991b151039e6463520
+s
+Csrc/test/java/com/epam/test/automation/java/practice5/MainTest.java,7\4\745f15469363a10bbac3a3f86b5b6947b37a921b
+t
+Dsrc/main/java/com/epam/test/automation/java/practice5/Rectangle.java,b\3\b3eeab955c8fe5f023025122199831b72c641e3b
