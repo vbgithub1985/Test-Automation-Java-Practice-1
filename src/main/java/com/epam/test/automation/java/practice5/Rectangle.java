@@ -1,40 +1,40 @@
 package com.epam.test.automation.java.practice5;
 
 public class Rectangle {
-    private float sideA;
-    private float sideB;
+    private double sideA;
+    private double sideB;
 
-    public Rectangle(float sideA, float sideB) {
+    public Rectangle(double sideA, double sideB) {
+        if (sideA<=0 || sideB<=0) throw new IllegalArgumentException();
         this.sideA = sideA;
         this.sideB = sideB;
     }
 
-    public Rectangle(float sideA) {
+    public Rectangle(double sideA) {
+        if (sideA<=0) throw new IllegalArgumentException();
         this.sideA = sideA;
         this.sideB = 5;
     }
 
     public Rectangle() {
         this.sideA = 4;
-        this.sideB = -3;
+        this.sideB = 3;
     }
 
-    public float getSideA() {
+    public double getSideA() {
         return sideA;
     }
 
-    public float getSideB() {
+    public double getSideB() {
         return sideB;
     }
 
-    public float area(){
-        float result = sideA * sideB;
-        return result;
+    public double area(){
+        return sideA * sideB;
     }
 
-    public float perimeter(){
-        float result = (sideA + sideB) * 2;
-        return result;
+    public double perimeter(){
+       return (sideA + sideB) * 2;
     }
 
     public boolean isSquare(){
@@ -42,7 +42,7 @@ public class Rectangle {
     }
 
     public void replaceSides(){
-        float tempside = sideA;
+        double tempside = sideA;
         sideA = sideB;
         sideB = tempside;
     }

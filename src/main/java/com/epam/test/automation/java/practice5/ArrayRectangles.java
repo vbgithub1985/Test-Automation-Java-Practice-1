@@ -25,9 +25,9 @@ public class ArrayRectangles {
 
     public int numberMaxArea(){
         int resultIndex = 0;
-        float maxArea = rectangleArray[0].area();
+        double maxArea = rectangleArray[0].area();
         for (int i = 1; i < rectangleArray.length; i++) {
-            float area = rectangleArray[i].area();
+            double area = rectangleArray[i].area();
             if (area>maxArea){
                 maxArea = area;
                 resultIndex = i;
@@ -38,9 +38,9 @@ public class ArrayRectangles {
 
     public int numberMinPerimeter(){
         int resultIndex = 0;
-        float min = rectangleArray[0].perimeter();
+        double min = rectangleArray[0].perimeter();
         for (int i = 1; i < rectangleArray.length; i++) {
-            float perimetr = rectangleArray[i].perimeter();
+            double perimetr = rectangleArray[i].perimeter();
             if (perimetr<min){
                 min = perimetr;
                 resultIndex = i;
