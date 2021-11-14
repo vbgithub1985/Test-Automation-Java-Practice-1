@@ -9,9 +9,10 @@ public class SalesPerson extends Employee{
     }
 
     @Override
-    void setBonus(double bonus) {
-        if (persent>100 && persent<=200) bonus*=2;
-        else if (persent>200 ) bonus*=3;
+    public void setBonus(double bonus) {
+        if (persent>100 && persent<=200) this.bonus = bonus*2;
+        else if (persent>200 ) this.bonus = bonus*3;
+        else this.bonus = bonus;
     }
 
     @Override
@@ -19,8 +20,9 @@ public class SalesPerson extends Employee{
         return "SalesPerson{" +
                 "name=" + getName() +
                 ", salary="+getSalary()+
-                ", bonus="+getSalary()+
+                ", bonus=" + bonus +
                 ", persent=" + persent +
-                '}';
+                ", toPay=" + toPay()+
+                '}' +"\n";
     }
 }

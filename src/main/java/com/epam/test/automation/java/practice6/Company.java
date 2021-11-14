@@ -43,7 +43,7 @@ public class Company {
     @Override
     public String toString() {
         return "Company{" +
-                "employees=" + Arrays.toString(employees) +
+                "employees="+"\n" + Arrays.toString(employees) +
                 '}';
     }
 }

@@ -3,7 +3,7 @@ package com.epam.test.automation.java.practice6;
 public abstract class Employee {
     private String name;
     private double salary;
-    private double bonus;
+    protected double bonus;
 
     public Employee(String name, double salary) {
         this.name = name;
@@ -26,9 +26,7 @@ public abstract class Employee {
         return salary + bonus;
     }
 
-    void setBonus(double bonus){
-        this.bonus = bonus;
-    };
+    abstract void setBonus(double bonus);
 
 
 }

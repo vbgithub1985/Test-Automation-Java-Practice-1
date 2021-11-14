@@ -10,7 +10,18 @@ public class Manager extends Employee{
 
     @Override
     void setBonus(double bonus) {
-        if (quantity>100 && quantity<=150) bonus+=500;
-        else if (quantity>150 ) bonus+=1000;
+        if (quantity>100 && quantity<=200) this.bonus = bonus+500;
+        else if (quantity>200 ) this.bonus = bonus+1000;
+        else this.bonus = bonus;
+    }
+
+    @Override
+    public String toString() {
+        return "Manager{" +
+                "name=" + getName() +
+                ", salary="+getSalary()+
+                ", quantity=" + quantity +
+                ", toPay=" + toPay()+
+                '}'+"\n";
     }
 }
