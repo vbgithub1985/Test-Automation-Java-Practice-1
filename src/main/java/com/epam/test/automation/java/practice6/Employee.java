@@ -26,7 +26,9 @@ public abstract class Employee {
         return salary + bonus;
     }
 
-    abstract void setBonus(double bonus);
+    void setBonus(double bonus){
+        this.bonus = bonus;
+    };
 
 
 }

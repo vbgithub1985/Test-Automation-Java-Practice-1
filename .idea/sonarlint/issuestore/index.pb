@@ -23,8 +23,6 @@ u
 Esrc/main/java/com/epam/test/automation/java/practice4/TaskHelper.java,2\7\27d92e0475b7441b6140e56eddb6bff87da9dcd0
 p
 @src/main/java/com/epam/test/automation/java/practice4/Task1.java,7\4\74838aee25c456b93eb97dd59f3940e1579e4c21
-z
-Jsrc/main/java/com/epam/test/automation/java/practice5/ArrayRectangles.java,6\c\6c27300abb969b5a24441a6a86e91088c02ae8b1
 o
 ?src/main/java/com/epam/test/automation/java/practice5/Main.java,4\9\4982a993a433477fc87764991b151039e6463520
 s

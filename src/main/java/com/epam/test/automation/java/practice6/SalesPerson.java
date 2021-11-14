@@ -13,4 +13,14 @@ public class SalesPerson extends Employee{
         if (persent>100 && persent<=200) bonus*=2;
         else if (persent>200 ) bonus*=3;
     }
+
+    @Override
+    public String toString() {
+        return "SalesPerson{" +
+                "name=" + getName() +
+                ", salary="+getSalary()+
+                ", bonus="+getSalary()+
+                ", persent=" + persent +
+                '}';
+    }
 }

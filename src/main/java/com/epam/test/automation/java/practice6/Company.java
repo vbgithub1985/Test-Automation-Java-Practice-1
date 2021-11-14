@@ -1,9 +1,15 @@
 package com.epam.test.automation.java.practice6;
 
+import java.util.Arrays;
+
 public class Company {
     private Employee[] employees;
 
-    public Company(Employee[] employees) {
+    public Employee[] getEmployees() {
+        return employees;
+    }
+
+    public Company(Employee... employees) {
         this.employees = employees;
     }
 
@@ -32,5 +38,12 @@ public class Company {
             }
         }
         return employees[maxI].getName();
+    }
+
+    @Override
+    public String toString() {
+        return "Company{" +
+                "employees=" + Arrays.toString(employees) +
+                '}';
     }
 }
