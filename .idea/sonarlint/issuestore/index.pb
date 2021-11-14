@@ -5,8 +5,6 @@ o
 ?src/main/java/com/epam/test/automation/java/practice1/Main.java,a\7\a78b3fc3bfa44f20a11b097dd6d5142eb516a4aa
 o
 ?src/main/java/com/epam/test/automation/java/practice3/Main.java,a\b\abb7932d9301ceff1337b1edc7492e1df3e76214
-k
-;src/main/java/com/epam/test/automation/java/funcs/Main.java,e\b\ebdcc33032ecbfab0914fdefa459ef741f0b707f
 s
 Csrc/test/java/com/epam/test/automation/java/practice2/MainTest.java,3\9\39a18ffb12f7b50f9ded5ebc89c97f9042e5abf4
 s
